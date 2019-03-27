@@ -29,6 +29,11 @@ gem 'bcrypt', '~> 3.1.12'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# 下の3つはrailsの最新版でjquery,turbolinksを使えるために必要
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'jquery-turbolinks'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
